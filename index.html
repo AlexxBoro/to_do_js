@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="app-container">
+      <h3 class="text-center">Lista zadań:</h3>
+
+      <section class="new-task-container">
+        <from>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Nazwa zadania..."
+            />
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="submit">
+                Dodaj zadanie
+              </button>
+            </span>
+          </div>
+        </from>
+      </section>
+
+      <section class="tasks-container">
+        <ul>
+          <li class="single-task">
+            <div class="input-group">
+              <span class="input-group-btn">
+                <button
+                  class="btn btn-default toggle-complete-btn"
+                  type="submit"
+                >
+                  <i class="fa fa-check"></i>
+                </button>
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="tytuł zadania..."
+                value="wynieść śmieci"
+              />
+              <span class="input-group-btn">
+                <button class="btn btn-danger delete-task-btn" type="submit">
+                  <i class="fa fa-times"></i>
+                </button>
+              </span>
+            </div>
+          </li>
+          <li class="single-task">
+            <div class="input-group">
+              <span class="input-group-btn">
+                <button
+                  class="btn btn-default toggle-complete-btn"
+                  type="submit"
+                >
+                  <i class="fa fa-check"></i>
+                </button>
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="tytuł zadania..."
+                value="coś poczytać"
+              />
+              <span class="input-group-btn">
+                <button class="btn btn-danger delete-task-btn" type="submit">
+                  <i class="fa fa-times"></i>
+                </button>
+              </span>
+            </div>
+          </li>
+          <li class="single-task">
+            <div class="input-group">
+              <span class="input-group-btn">
+                <button
+                  class="btn btn-default toggle-complete-btn"
+                  type="submit"
+                >
+                  <i class="fa fa-check"></i>
+                </button>
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="tytuł zadania..."
+                value="pobiegać"
+              />
+              <span class="input-group-btn">
+                <button class="btn btn-danger delete-task-btn" type="submit">
+                  <i class="fa fa-times"></i>
+                </button>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
